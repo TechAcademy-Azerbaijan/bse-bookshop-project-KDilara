@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+}
+.shop {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 61px;
+  text-align: center;
+  color: #109e97;
+  text-decoration: none;
+  display: block;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 27px;
+}
+
+h4 b {
+  font-family: "Verdana";
+  font-size: 25px;
+  line-height: 29px;
+  text-decoration: none;
+  color: #008000;
+}
+.Regprice {
+  display: inline-block;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #008000;
+}
+.price {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ff0000;
+  text-decoration: line-through;
+  display: inline-block;
+}
+
+hr {
+  width: 100%;
+  height: 2px;
+  left: 8px;
+  top: 130px;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  background-color: #000000;
+}
+.image {
+  width: 200px;
+  height: 302px;
+  margin-bottom: 5px;
+  left: 8px;
+  top: 246px;
+  background: url(Inkognito.png);
+  background-size: contain;
+}
+.description {
+  width: 100%;
+  height: 256px;
+  background: #000000;
+  border-radius: 0px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  padding-top: 10px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  color: #ffffff;
+}
+.mezmun {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #000000;
+}
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+td,
+th {
+  height: 36px;
+  border: 1px solid #808080;
+}
+
+form,
+label,
+input {
+  align-content: center;
+}
+.comments {
+  display: inline-block;
+  width: 33%;
+}
+.bookpicture1 {
+  width: 33%;
+  height: 478px;
+  background: url(Inkognito.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: left;
+  display: inline-block;
+}
+.bookpicture2 {
+  width: 33%;
+  height: 478px;
+  background: url(Inkognito.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+  display: inline-block;
+}
+.secondSection {
+  text-align: center;
+  margin: 15px auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.sherh {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.button {
+  width: 120px;
+  height: 50px;
+  background: #109e97;
+  border: 2px solid #767676;
+  border-radius: 0px;
+  letter-spacing: 2px;
+  color: aliceblue;
+}
+#comment {
+  width: 261px;
+  height: 156px;
+  background: #ffffff;
+  border: 1px solid #767676;
+  border-radius: 0px;
+}
+#ln {
+  background: #dddddd;
+  border: 1px solid #767676;
+  border-radius: 0px;
+}
+
+.contactInfo {
+  text-decoration: none;
+  list-style-type: none;
+}
+footer {
+  background: #109e97;
+  border-radius: 0px;
+  width: 100%;
+  height: 86px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 25px;
+}
+
+li a {
+  text-decoration: none;
+}
