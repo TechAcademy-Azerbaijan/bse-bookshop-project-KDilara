@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -10,9 +10,36 @@
   font-size: 49px;
   line-height: 61px;
   text-align: center;
-  color: #109e97;
+  background-color: #109e97;
+  color: #ffffff;
   text-decoration: none;
   display: block;
+  border-bottom: 2px solid black;
+  height: 10vh;
+  padding-top: 5px;
+}
+.content1 {
+  position: relative;
+  width: 70vw;
+  height: 30vw;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 10vh 0;
+}
+.image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 300px;
+  height: 450px;
+  background: url(Inkognito.png);
+  background-size: contain;
+}
+.upperPart {
+  position: absolute;
+  right: 0;
+  width: 45vw;
+  height: 450px;
 }
 
 .title {
@@ -23,21 +50,14 @@
   line-height: 27px;
 }
 
-h4 b {
-  font-family: "Verdana";
-  font-size: 25px;
-  line-height: 29px;
-  text-decoration: none;
-  color: #008000;
-}
 .Regprice {
-  display: inline-block;
   font-family: "Verdana";
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
   line-height: 29px;
   color: #008000;
+  display: inline-block;
 }
 .price {
   font-family: "Verdana";
@@ -49,96 +69,126 @@ h4 b {
   text-decoration: line-through;
   display: inline-block;
 }
-
-hr {
-  width: 100%;
-  height: 2px;
-  left: 8px;
-  top: 130px;
-  border: 1px solid #000000;
-  border-radius: 0px;
-  background-color: #000000;
-}
-.image {
-  width: 200px;
-  height: 302px;
-  margin-bottom: 5px;
-  left: 8px;
-  top: 246px;
-  background: url(Inkognito.png);
-  background-size: contain;
-}
-.description {
-  width: 100%;
-  height: 256px;
-  background: #000000;
-  border-radius: 0px;
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: right;
-  padding-top: 10px;
-  letter-spacing: 2px;
-  word-spacing: 10px;
-  color: #ffffff;
-}
 .mezmun {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
-  text-align: right;
+  text-align: left;
   text-transform: uppercase;
+  margin-bottom: 5vh;
+}
+.description {
+  height: 266px;
+  border-radius: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+  padding-top: 10px;
+  margin: 40px 0 40px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+}
+.buttonSebet {
+  width: 149px;
+  height: 48px;
+  display: inline-block;
+  background: #109e97;
+  border: 1px solid #109e97;
+  border-radius: 4px;
+  text-align: center;
   color: #ffffff;
-  border: 1px solid #000000;
+  padding-top: 15px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-family: "Roboto", sans-serif;
+}
+.middleSection {
+  position: relative;
+  width: 70vw;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 10vh 0;
+}
+table {
+  width: 100%;
+}
+td,
+th {
+  font-family: "Roboto", sans-serif;
+  height: 36px;
+  border-top: 2px solid #808080;
+  border-bottom: 2px solid #808080;
+  padding-top: 10px;
+}
+
+.lowerPart {
+  position: relative;
+  height: 455px;
+  font-family: "Roboto", sans-serif;
+  width: 70vw;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 10vh 0;
+
+}
+.firstImage {
+  position: absolute;
+  width: 300px;
+  height: 455px;
+  left: 0px;
+  display: inline-block;
+}
+.comments {
+  position: absolute;
+  width: 70vw;
+  height: 455px;
+  left: 50%;
+  top: 0%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+form{
+  text-align: center;
 }
 h2,
 h3,
 h4 {
   text-transform: uppercase;
-}
-
-td,
-th {
-  height: 36px;
-  border: 1px solid #808080;
-}
-
-form,
-label,
-input {
-  align-content: center;
-}
-.comments {
-  display: inline-block;
-  width: 33%;
-}
-.bookpicture1 {
-  width: 33%;
-  height: 478px;
-  background: url(Inkognito.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position-x: left;
-  display: inline-block;
-}
-.bookpicture2 {
-  width: 33%;
-  height: 478px;
-  background: url(Inkognito.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position-x: right;
-  display: inline-block;
-}
-.secondSection {
-  text-align: center;
-  margin: 15px auto;
   font-family: "Roboto", sans-serif;
 }
+h4 {
+  text-align: center;
+  margin: 20px 0 20px;
+}
 
+#dt, #ln, #myRange, #cmt, #rd{
+  display: inline-block;
+  margin: 0%;
+}
+
+.neDilde, .neVaxt, .oxu, .raange{
+  display: inline-block;
+  margin: 0%;
+}
+.firstForm{
+  display: block;
+  margin: 15px 0;
+}
+
+
+.secondImage {
+  position: absolute;
+  width: 300px;
+  height: 455px;
+  right: 0vw;
+  top: 0px;
+  display: inline-block;
+}
 .sherh {
   font-family: "Roboto";
   font-style: normal;
@@ -156,13 +206,21 @@ input {
   border-radius: 0px;
   letter-spacing: 2px;
   color: aliceblue;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  margin:0;
+  bottom: 0;
+
 }
 #comment {
   width: 261px;
-  height: 156px;
   background: #ffffff;
   border: 1px solid #767676;
   border-radius: 0px;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
 }
 #ln {
   background: #dddddd;
@@ -173,6 +231,32 @@ input {
 .contactInfo {
   text-decoration: none;
   list-style-type: none;
+}
+
+.links {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  
+}
+li {
+ 
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #109e97;
+ 
+}
+li:last-child{
+  background: #808080;
+  margin: 10px 0;
+}
+.logo{
+ padding-top:16px ;
+color: #ffffff;
+
 }
 footer {
   background: #109e97;
@@ -185,8 +269,16 @@ footer {
   text-align: center;
   color: #ffffff;
   padding-top: 25px;
+  border-top: 2px solid black;
 }
 
 li a {
   text-decoration: none;
+  
+}
+
+label,
+input {
+  display: block;
+  margin: 10px 150px;
 }
