@@ -36,7 +36,7 @@ nav ul {
   margin: 0 auto;
   width: 70vw;
   height: 8vh;
-  font-size: 1rem;
+  font-size: 14px;
   list-style: none;
   color: #ffffff;
   background-color: #109e97;
@@ -289,7 +289,7 @@ h4 {
   letter-spacing: 2px;
   color: aliceblue;
 }
-.button:hover{
+.button:hover {
   cursor: pointer;
 }
 #comment {
