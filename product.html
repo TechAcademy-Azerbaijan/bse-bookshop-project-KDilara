@@ -4,174 +4,163 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="reset.css" />
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="styleIndex.css" />
-
+    <link rel="stylesheet" href="owl.css" />
+    <link rel="stylesheet" href="sass/main.css" />
     <title>BookShop</title>
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-dark"
-      style="background-color: #17a2b8"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">KITAB MAGAZASI</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse d-flex justify-content-end"
-          id="navbarNavAltMarkup"
-        >
-          <div class="navbar-nav">
-            <a class="nav-link" href="index.html">Ana səhifə</a>
-            <a class="nav-link" href="#">Haqqımızda</a>
-            <a class="nav-link" href="#">Kateqoriyalar</a>
-            <a class="nav-link active" aria-current="page" href="product.html"
-              >Ayın kitabı</a
+    <nav class="bg-primary w-100">
+      <div class="flex w-70 navbar">
+        <a class="text-white" href="index.html">KITAB MAGAZASI</a>
+
+        <div class="">
+          <div class="">
+            <a class="text-white-primary-5 mr-1" href="index.html"
+              >Ana səhifə</a
             >
-            <a class="nav-link" href="#">İstifadəçi</a>
+            <a class="text-white-primary-5 mr-1" href="#">Haqqımızda</a>
+            <a class="text-white-primary-5 mr-1" href="#">Kateqoriyalar</a>
+            <a class="text-white mr-1" href="product.html">Ayın Kitabı</a>
+            <a class="text-white-primary-5" href="#">İstifadəçi</a>
           </div>
         </div>
       </div>
     </nav>
 
-    <div class="d-flex flex-column align-items-center mt-5">
-      <img
-        src="assets/Inkognito.png"
-        alt=""
-        class="img-fluid mb-2"
-        style="width: 15vw"
-      />
-      <div class="h2">İncognito (beyinin gizli həyatı)</div>
-      <div class="div">
-        <p class="d-inline-block text-success fs-5 fw-bold">12.00 AZN</p>
-        <p class="d-inline-block text-danger text-decoration-line-through">
-          15.00 AZN
-        </p>
-      </div>
-      <p class="text-center mt-3 mb-3">
-        Tanınmış nevroloq D.İqlmenin 20-dən çox dilə tərcümə edilən və indidən
-        klassik əsərə çevrilən bu kitabı beynin sirli dünyasına təcrübələr, elmi
-        biliklər və tarixi faktlar işığında səyahət edir. Kitab tibbi mövzuda
-        olsa da, müəllif yazarlıq məharətini və zəngin biliyini birləşdirərək
-        elmi faktları sadə və müqayisəli dillə oxucularına təqdim edir. Müəllif
-        əsər boyu sədaqət geni, qumarbazlara çevrilən parkinson xəstələri,
-        gen-mühit əlaqəsi, “yaxşı” və “pis” gen, şüuraltı və qərarvermə
-        mexanizmi, məsuliyyət anlayışı, beynin insan həyatında rolu kimi bir çox
-        mövzulara toxunur. Alim bu mövzuların beyinlə əlaqəsini izah etməklə
-        kifayətlənmir, beyinlə bağlı müxtəlif formullar və modellər irəli sürür.
-        İnsan psixologiyası və davranışlarına neyron və gen prizmasından baxmağı
-        öyrədir. Elmi-populyar dildə yazılmış bu kitab xüsusən müəllimlər,
-        psixoloqlar, valideynlər, həkimlər üçün mühüm bilikləri ehtiva edir.
-      </p>
+    <div class="upperPart flex w-70">
+      <img src="assets/Inkognito.png" alt="" class="image" />
+      <div class="titlesAndDesc w-60 h-100">
+        <div class="allTitles text-right">
+          <p class="title fs-3 fw-bold">İncognito (beyinin gizli həyatı)</p>
+          <div class="pricing">
+            <p class="Regprice d-iblock text-green fs-4">12.00 AZN</p>
+            <p class="price d-iblock text-red">15.00 AZN</p>
+          </div>
+        </div>
 
-      <button type="button" class="btn btn-primary">Səbətə əlavə et</button>
+        <div class="description text-right">
+          <h3 class="mezmun mt-3">Qısa məzmun</h3>
+          <div class="bookText">
+            <div class="scroll">
+              <p>
+                Tanınmış nevroloq D.İqlmenin 20-dən çox dilə tərcümə edilən və
+                indidən klassik əsərə çevrilən bu kitabı beynin sirli dünyasına
+                təcrübələr, elmi biliklər və tarixi faktlar işığında səyahət
+                edir. Kitab tibbi mövzuda olsa da, müəllif yazarlıq məharətini
+                və zəngin biliyini birləşdirərək elmi faktları sadə və
+                müqayisəli dillə oxucularına təqdim edir. Müəllif əsər boyu
+                sədaqət geni, qumarbazlara çevrilən parkinson xəstələri,
+                gen-mühit əlaqəsi, “yaxşı” və “pis” gen, şüuraltı və qərarvermə
+                mexanizmi, məsuliyyət anlayışı, beynin insan həyatında rolu kimi
+                bir çox mövzulara toxunur. Alim bu mövzuların beyinlə əlaqəsini
+                izah etməklə kifayətlənmir, beyinlə bağlı müxtəlif formullar və
+                modellər irəli sürür. İnsan psixologiyası və davranışlarına
+                neyron və gen prizmasından baxmağı öyrədir. Elmi- populyar dildə
+                yazılmış bu kitab xüsusən müəllimlər, psixoloqlar, valideynlər,
+                həkimlər üçün mühüm bilikləri ehtiva edir.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="buttonSebet bg-primary">
+          <a href="#" class="text-white"> Səbətə əlavə et</a>
+        </div>
+      </div>
     </div>
-    <div class="alert alert-warning text-center mt-5" role="alert">
-      Bu kitabdan cəmi 2 ədəd qalıb
-    </div>
-    <p class="h3 text-center fw-light">XÜSUSİYYƏTLƏR</p>
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">Xüsusiyyət</th>
-          <th scope="col">Açıqlama</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
+    <div class="secondSection w-70">
+      <div class="bg-white-warning-5 text-dark-warning-5 text-center mt-5 p-1">
+        Bu kitabdan cəmi 2 ədəd qalıb
+      </div>
+      <p class="fs-3 text-center fw-normal m-2">XÜSUSİYYƏTLƏR</p>
+      <table class="w-100">
+        <tr class="row">
+          <td class="fw-bold">#</td>
           <td>Dil:</td>
           <td>Azərbaycanca</td>
         </tr>
+
         <tr>
-          <th scope="row">2</th>
+          <td class="fw-bold">1</td>
           <td>Janr:</td>
           <td>Psixologiya</td>
         </tr>
         <tr>
-          <th scope="row">3</th>
+          <td class="fw-bold">2</td>
           <td>Müəllif:</td>
           <td>David Eagleman</td>
         </tr>
-        <tr>
-          <th scope="row">4</th>
-          <td>Nəşriyyat:</td>
-          <td>Qanun Nəşriyyatı</td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="mt-3">
-      <p class="h3 text-center fw-light">ŞƏRH YAZ</p>
-      <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label"
-          >Tam adınız:</label
-        >
-        <input type="text" class="form-control" id="formGroupExampleInput" />
-      </div>
-      <label for="select" class="form-label"> Hansı dildə oxumusunuz? </label>
-      <select
-        class="form-select"
-        aria-label="Default select example"
-        id="select"
-      >
-        <option selected>Azərbaycan</option>
-        <option value="1">Rus</option>
-        <option value="2">İngilis</option>
-      </select>
-      <label for="customRange1" class="form-label">Qiymətləndirmə:</label>
-      <input type="range" class="form-range" id="customRange1" />
 
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label"
-          >Şərhiniz:</label
-        >
-        <textarea
-          class="form-control"
-          id="exampleFormControlTextarea1"
-          rows="3"
-        ></textarea>
-      </div>
-      <div class="form-check">
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="flexCheckDefault"
-        />
-        <label class="form-check-label" for="flexCheckDefault">
-          Bu kitabı oxumusunuzmu?
+        <tr>
+          <td class="fw-bold">3</td>
+          <td>Nəşriyyat:</td>
+          <td>Qanun nəşriyyatı</td>
+        </tr>
+      </table>
+
+      <div class="mt-3 forms w-100">
+        <div id="sherh" class="w-100">
+          <p class="fs-4 text-center fw-bold m-2">ŞƏRH YAZ</p>
+        </div>
+
+        <div class="mt-2 w-100">
+          <label for="formGroupExampleInput" class="form-label w-100"
+            >Tam adınız:</label
+          >
+          <input
+            type="text"
+            class="w-100 formStyle formHeight"
+            id="formGroupExampleInput"
+          />
+        </div>
+        <label for="select" class="form-label w-100 mt-2 ">
+          Hansı dildə oxumusunuz?
         </label>
+        <select
+          class="form-select w-100 formStyle formHeight"
+          aria-label="Default select example"
+          id="select"
+        >
+          <option selected>Azərbaycan</option>
+          <option value="1">Rus</option>
+          <option value="2">İngilis</option>
+        </select>
+        <label for="customRange1" class="w-100 mt-2"
+          >Qiymətləndirmə:</label
+        >
+        <input type="range" class="form-range w-100 " id="customRange1" />
+
+        <div class="w-100 mt-2">
+          <label for="exampleFormControlTextarea1" class="w-100 "
+            >Şərhiniz:</label
+          >
+          <textarea
+            class="form-control w-100 formStyle"
+            id="exampleFormControlTextarea1"
+            rows="5"
+          ></textarea>
+        </div>
+        <div class="form-check w-100 mt-2">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label w-100" for="flexCheckDefault">
+            Bu kitabı oxumusunuzmu?
+          </label>
+        </div>
+        <button type="button" class="btn mt-2 mb-2 bg-primary text-white">
+          Submit
+        </button>
       </div>
-      <button type="button" class="btn btn-primary mt-3">Submit</button>
     </div>
-    <footer class="py-4 mt-5" style="background-color: #17a2b8">
-      <div class="container text-light text-center">
-        <p class="mb-1">Copyright © E-mağaza layihəsi</p>
+
+    <footer class="py-6" style="background-color: #17a2b8">
+      <div class="w-100 footer">
+        <p class="text-white">Copyright © E-mağaza layihəsi</p>
       </div>
     </footer>
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>

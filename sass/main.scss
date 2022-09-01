@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+@import "./variables";
+@import "./classes";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $roboto;
+}
+
+a {
+  text-decoration: none;
+}
+//first page
+.flex {
+  @include flex(space-between, center);
+  height: 100%;
+}
+
+.navbar {
+  height: 5vh;
+  margin: 0 auto;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto 5vh;
+  @include flex(space-between, center);
+  flex-wrap: wrap;
+  gap: 20vh;
+}
+.card {
+  max-width: 30vw;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 4px;
+  @include flex(center, flex-start, column);
+}
+
+.btn {
+  width: 10vh;
+  height: 5vh;
+  border: none;
+  border-radius: 5px;
+}
+.text-uppercase {
+  @include text-tr(uppercase);
+}
+.text-center {
+  @include text-al(center);
+}
+.jumbotron {
+  height: 40vh;
+  @include flex(center, center);
+}
+.content {
+  width: 70%;
+}
+.footer {
+  height: 6vh;
+  @include flex(center, center);
+}
+
+//second page
+.card-img {
+  height: 40vh;
+}
+.image {
+  height: 50vh;
+}
+.upperPart {
+  margin: 5vh auto;
+}
+.buttonSebet {
+  width: 20vh;
+  height: 6vh;
+  border: none;
+  border-radius: 5px;
+  @include flex(center, center);
+}
+.titlesAndDesc {
+  @include flex(space-between, flex-end, column);
+}
+.secondSection {
+  margin: $equal;
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #dddddd;
+    }
+  }
+}
+
+.forms {
+  @include flex(center, flex-start, column);
+}
+#sherh {
+  @include flex(center, center);
+}
+.formStyle {
+  border: 1.5px solid rgb(156, 156, 156);
+  border-radius: 5px;
+}
+.formHeight{
+  height: 2rem;
+}

@@ -1,0 +1,80 @@
+$colors: (
+  "primary": #17a2b8,
+  "white": white,
+  "warning": rgb(248, 224, 38),
+  "red": rgb(189, 24, 24),
+  "green": rgb(35, 184, 35),
+);
+$screens: (
+  "phone": 0,
+  "tablet": 450px,
+  "laptop": 720px,
+  "large": 1280px,
+);
+$equal: 0 auto;
+$margin: (
+  "1": 1vh,
+  "2": 2vh,
+  "3": 3vh,
+  "4": 4vh,
+  "5": 5vh,
+  "6": 10vh,
+);
+$padding: (
+  "1": 1vh,
+  "2": 2vh,
+  "3": 3vh,
+  "4": 4vh,
+  "5": 5vh,
+  "6": 10vh,
+);
+$fs: (
+  "1": 3rem,
+  "2": 2.5rem,
+  "3": 2rem,
+  "4": 1.5rem,
+  "5": 1rem,
+  "6": 0.5rem,
+);
+$weight: (
+  "light": 100,
+  "normal": 300,
+  "bold": 700,
+);
+$width: (
+  "100": 100%,
+  "70": 70%,
+  "60": 60%,
+  "50": 50%,
+);
+$height: (
+  "100": 100%,
+  "70": 70%,
+  "60": 60%,
+  "50": 50%,
+);
+$alignment: (
+  "center": center,
+  "left": left,
+  "right": right,
+);
+$display: (
+  "flex": flex,
+  "iblock": inline-block,
+  "block": block,
+);
+
+$roboto: "Roboto", sans-serif;
+
+@mixin flex($justify: null, $align: null, $direction: null) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+@mixin text-tr($cap) {
+  text-transform: $cap;
+}
+@mixin text-al($align) {
+  text-align: $align;
+} ;

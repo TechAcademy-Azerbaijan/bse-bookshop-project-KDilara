@@ -1,0 +1,77 @@
+@each $key, $val in $colors {
+  .bg-#{$key} {
+    background-color: $val;
+  }
+  .text-#{$key} {
+    color: $val;
+  }
+  @if ($key != "white" and $key != "black") {
+    @for $i from 1 to 6 {
+      .text-white-#{$key}-#{$i} {
+        color: mix(white, $val, 10 * $i);
+      }
+      .bg-white-#{$key}-#{$i} {
+        background-color: mix(white, $val, 10 * $i);
+      }
+      .text-dark-#{$key}-#{$i} {
+        color: mix(black, $val, 10 * $i);
+      }
+      .bg-dark-#{$key}-#{$i} {
+        background-color: mix(black, $val, 10 * $i);
+      }
+    }
+  }
+}
+@each $key, $val in $margin {
+  .m-#{$key} {
+    margin: $val;
+  }
+  .mt-#{$key} {
+    margin-top: $val;
+  }
+
+  .mb-#{$key} {
+    margin-bottom: $val;
+  }
+  .mr-#{$key} {
+    margin-right: $val;
+  }
+  .ml-#{$key} {
+    margin-left: $val;
+  }
+}
+@each $key, $val in $padding {
+  .p-#{$key} {
+    padding: $val;
+  }
+}
+@each $key, $val in $fs {
+  .fs-#{$key} {
+    font-size: $val;
+  }
+}
+@each $key, $val in $weight {
+  .fw-#{$key} {
+    font-weight: $val;
+  }
+}
+@each $key, $val in $width {
+  .w-#{$key} {
+    width: $val;
+  }
+}
+@each $key, $val in $height {
+  .h-#{$key} {
+    height: $val;
+  }
+}
+@each $key, $val in $alignment {
+  .text-#{$key} {
+    text-align: $val;
+  }
+}
+@each $key, $val in $display {
+  .d-#{$key} {
+    display: $val;
+  }
+}
